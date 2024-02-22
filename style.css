@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: font1 ;
+    src: url(fonte/loveyou.otf);
+}
+
+body{
+background-image: url(https://c4.wallpaperflare.com/wallpaper/261/78/407/movie-lilo-and-stitch-wallpaper-preview.jpg);
+text-align: center;
+margin: 0 ;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+#Calculator{
+    max-width: 360px;
+    background-image: url(https://p16-va.lemon8cdn.com/tos-maliva-v-ac5634-us/owEfbAPvNAL20ADA0ecwSdGHAqf5IrK8CQgHQ9~tplv-tej9nj120t-origin.webp);
+    border-radius: 13px;
+    padding: 18px;
+    box-shadow:  5px 10px 5px;
+}
+
+#display{
+    width: 100%;
+    height: 60px;
+    font-size: 22px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 3px;
+    color: rgb(0, 0, 0);
+    background:aqua;
+    border: none;
+    box-sizing: border-box;
+
+}
+
+button{
+    width: calc(25% - 12px);
+    height: 50px;
+    font-size: 22px ;
+    margin: 10px 5px;
+    border: none;
+    float: left;
+    background-color: rgb(43, 226, 211);
+    color: rgb(0, 0, 0);
+    box-shadow: rgb(59, 83, 83) 5px 10px 5px;
+}
+
+.operator{
+    color: black;
+    background-color: cornflowerblue;
+
+}
+
+#AC {
+    color: hotpink;
+    .equal{
+        width: calc(50% - 12px);
+        background-color: lightseagreen;
+        
+    }
+}
+
+button:hover{
+    cursor: pointer;
+
+}
+
+button:active{
+   transform: scale(.9);
+   box-shadow: rgb(186, 203, 235) 5px 10px 5px;
+}
+
+h1{
+    font-size: 70px;
+    font-family: font1;
+    text-shadow: rgb(255, 255, 255) 5px 10px 5px;
+}
